@@ -8,8 +8,8 @@
     "server": "nodemon server.js",
     "client":"npm run dev --prefix ./client",
     "build": "npm run build --prefix client",
-    "dev":"concurrently \"npm run server\" \"npm run client\""
-
+    "dev":"concurrently \"npm run server\" \"npm run client\"",
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "abhinav",
   "license": "ISC",
