@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import InputType from '../Form/inputType';
+import InputType from '../Form/InputType.jsx';
 import { useSelector } from 'react-redux';
 import API from '../../../../services/API';
 const Modal = () => {
