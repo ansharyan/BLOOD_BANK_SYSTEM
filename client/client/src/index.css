@@ -1,0 +1,55 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+.form-banner img{
+  height: 100%;
+  width:100%;
+}
+
+.form-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+
+.loader-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0,0, 0, 0.3);
+}
+
+.loader{
+  width:48px;
+  height:48px;
+  border:5px solid #fff;
+  border-radius: 50%;
+  border-bottom-color:gray;
+  display: inline-block;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation{
+  0%{
+    transform:rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.navbar{
+  background-color: black !important;
+  color:white !important;
+}
+
+.nav-link,.navbar-brand{
+  color:white !important;
+}
